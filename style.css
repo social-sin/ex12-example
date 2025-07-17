@@ -1,0 +1,210 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  width: 100vw;
+  font-family: "Domine", serif;
+  font-size: 14px;
+}
+
+body {
+  margin: 0 auto;
+}
+
+nav {
+    width: 100%;
+    height: 75px;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 50px;
+}
+
+nav a {
+    color: black;
+    padding-left: .75rem;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+nav a:hover {
+    color: lightblue;
+    text-decoration: underline;
+}
+
+main {
+    width: 75vw;
+    margin: 0 auto;
+}
+
+h1 {
+  display: block;
+  text-transform: uppercase;
+  font-size: 45px;
+}
+
+h2 {
+  text-transform: lowercase;
+  font-size: 32px;
+}
+
+section {
+  margin-top: 100px;
+}
+
+.blurb {
+  height: 300px;
+  margin-top: 100px;
+}
+
+.blurb h2 {
+    color: grey;
+}
+
+span {
+  font-family: 'Libre Baskerville', serif;
+}
+
+.team {
+  height: 500px;
+  width: 100%;
+  display: flex;
+  font-size: 24px;
+  text-align: center;
+}
+
+.member, .image {
+  background-size: cover;
+  background-position: center;
+}
+
+.member {
+  flex: 1 20px;
+  padding-top: 30px;
+  color: white;
+}
+
+.one {
+  background-image: url("https://cdn.glitch.global/1cc6f652-bbd8-49b1-823c-5782ce1266fd/pexels-anna-shvets-4587973.jpg?v=1666036500186");
+}
+
+.two {
+  background-image: url("https://cdn.glitch.global/1cc6f652-bbd8-49b1-823c-5782ce1266fd/pexels-anna-shvets-4588438.jpg?v=1666036492026");
+  color: black;
+}
+
+.three {
+  background-image: url("https://cdn.glitch.global/1cc6f652-bbd8-49b1-823c-5782ce1266fd/pexels-anna-shvets-4587976.jpg?v=1666036487198");
+}
+
+.four {
+  background-image: url("https://cdn.glitch.global/1cc6f652-bbd8-49b1-823c-5782ce1266fd/charlesdeluvio-Mv9hjnEUHR4-unsplash.jpg?v=1666108357584");
+  color: black;
+}
+
+.work {
+  display: flex;
+  justify-content: space-between;
+}
+
+.OurWork h2 {
+  text-align: right;
+}
+
+
+.container {
+  width: 33%;
+}
+
+.image {
+  height: 255px;
+}
+
+.container p {
+  font-size: 4rem;
+  font-style: italic;
+  color: white;
+  position: relative;
+  top: -45px;
+  height: 15%;
+}
+
+.first {
+  background-image: url("https://cdn.glitch.global/1cc6f652-bbd8-49b1-823c-5782ce1266fd/pexels-cats-coming-920220.jpg?v=1666041400514");
+}
+
+.second {
+  background-image: url("https://cdn.glitch.global/1cc6f652-bbd8-49b1-823c-5782ce1266fd/pexels-blue-bird-7210273.jpg?v=1666041411831");
+}
+
+.third {
+  background-image: url("https://cdn.glitch.global/1cc6f652-bbd8-49b1-823c-5782ce1266fd/pexels-heidi-meborg-6469237.jpg?v=1666041398348");
+}
+
+footer {
+  width: 100%;
+  height: 300px;
+  background-color:black;
+  color: white;
+  margin-top: 80px;
+  padding-top: 50px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  height: 50px;
+}
+
+footer a:hover {
+  color: lightblue;
+  text-decoration: underline;
+}
+
+.footer-content {
+    margin: 0 auto;
+    width: 75vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-links {
+    height: 150px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-button-copyright {
+  width: 27%;
+  height: 75px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.footer-button {
+    font-size: .8rem;
+    padding: 1em 2em;
+    text-align: center;
+    border-radius: 1.5rem;
+    color: black;
+    background: white;
+}
+
+.copyright {
+  font-size: .75rem;
+  text-align: right;
+  color: lightgrey;
+}
+
